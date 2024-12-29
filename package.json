@@ -1,0 +1,31 @@
+{
+  "name": "desafio-01-tasks-rockeseat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "22"
+  },
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "6.1.0",
+    "csv-parse": "^5.6.0",
+    "csv-stringify": "^6.5.2",
+    "express": "^4.21.2",
+    "prisma-client": "^0.0.0",
+    "tsc": "^2.0.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "prisma": "6.1.0"
+  }
+}
